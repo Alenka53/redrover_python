@@ -8,3 +8,10 @@ class Case(BaseModel):
     steps: list[str]
     expected_result: str
     priority: str
+
+class Case1(BaseModel):
+    id: int
+    name: str
+    description: str
+    steps: list[str]
+    expected_result: str
